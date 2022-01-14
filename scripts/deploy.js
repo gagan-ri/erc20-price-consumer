@@ -1,6 +1,6 @@
-// const hre = require("hardhat")
-// const ethers = hre.ethers
-
+const hre = require("hardhat")
+const ethers = hre.ethers
+ 
 async function main() {
     console.log("Getting artifacts together")
     const PriceConsumerV3 = await ethers.getContractFactory("PriceConsumerV3")
